@@ -122,3 +122,4 @@
   <?php print render($content['comments']); ?>
   </div>
 </div>
+<!-- Eigentors clever comment -->
