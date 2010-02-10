@@ -76,12 +76,57 @@ html.js fieldset.collapsed {
    padding-bottom: 80px;
   padding-top: 50px;
 }
+/* Wrappers for Background images and shadows */
 #wrapper-inner-top {
   background: #9AA1A7 url("../images/bg-main-top-low.jpg") repeat-x 0 0;
 }
 #wrapper-inner-bottom {
   background: url("../images/bg-main-bottom.jpg") repeat-x 0 bottom;
 }
+#wrapper-inner-color-bar {
+  background: url("../images/bg-color-bar-low.jpg") repeat-x 0 170px; 
+}
+#wrapper-inner-shadow-over-left {
+  width: 990px;
+  margin: auto;
+  background: url("../images/bg-shadow-over-left.jpg") no-repeat 30px 2px;
+  
+}
+#wrapper-inner-shadow-over-right {
+  background: url("../images/bg-shadow-over-right.jpg") no-repeat 893px 2px;
+  padding-top: 10px;
+}
+#wrapper-inner-shadow-repeated-left {   
+  background: url("../images/bg-shadow-repeated-left.jpg") repeat-y 8px 0;
+}
+#wrapper-inner-shadow-top-left {
+  background: url("../images/bg-shadow-top-left.jpg") no-repeat 8px 0; 
+}
+#wrapper-inner-shadow-color-bar-left {
+  background: url("../images/bg-shadow-color-bar-left.jpg") no-repeat 8px 160px; 
+}
+#wrapper-inner-shadow-middle-left {
+  background: url("../images/bg-shadow-middle-left.jpg") no-repeat 8px 306px;
+}
+#wrapper-inner-shadow-bottom-left {
+background: url("../images/bg-shadow-bottom-left.jpg") no-repeat 8px bottom;
+}
+#wrapper-inner-shadow-repeated-right {
+  background: url("../images/bg-shadow-repeated-right.jpg") repeat-y 953px 0;
+}
+#wrapper-inner-shadow-top-right {
+  background: url("../images/bg-shadow-top-right.jpg") no-repeat 953px 0; 
+}
+#wrapper-inner-shadow-color-bar-right {
+  background: url("../images/bg-shadow-color-bar-right.jpg") no-repeat 953px 160px; 
+}
+#wrapper-inner-shadow-middle-right {
+  background: url("../images/bg-shadow-middle-right.jpg") no-repeat 953px 306px;
+}
+#wrapper-inner-shadow-bottom-right {
+background: url("../images/bg-shadow-bottom-right.jpg") no-repeat 953px bottom;
+}
+
 #main-wrapper {
   margin-bottom: 2em;
 }
@@ -302,7 +347,7 @@ html.js fieldset.collapsed {
 /**************************************/
 #container {
   width: 950px;
-  margin: 7px auto 0 auto;
+  margin: 0 auto 0 auto;
   padding-top: 39px;
   background: #ffffff;
 }
@@ -324,15 +369,15 @@ html.js fieldset.collapsed {
 
 #content {
   float: left;
-  width: 640px;
+  width: 650px;
   margin-right: 10px;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 #content-area {
   float: left;
   width: 620px;
-  padding-left: 40px;
+  padding-left: 30px;
   margin-right: 10px;
   padding-top: 10px;
 }
