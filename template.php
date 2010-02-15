@@ -58,7 +58,7 @@ function busy_preprocess_node(&$vars) {
     $vars['content']['links']['comment']['#links']['comments_count']['attributes'] = array();
   }
   if (theme_get_setting('toggle_node_user_picture', 'busy') && $vars['picture']) {
-    $vars['classes_array'][] = 'node-with-author-picture';
+    $vars['classes_array'][] = 'has-author-picture';
   }
 }
 
@@ -69,7 +69,7 @@ function busy_preprocess_node(&$vars) {
  */
 function busy_preprocess_comment(&$vars) {
   if (theme_get_setting('toggle_comment_user_picture', 'busy') && $vars['picture']) {
-    $vars['classes_array'][] = 'comment-with-author-picture';
+    $vars['classes_array'][] = 'has-author-picture';
   }
 }
 
@@ -259,7 +259,7 @@ function busy_fieldset($variables) {
 
   $output = '<fieldset' . drupal_attributes($element['#attributes']) . '>';
   if (!empty($element['#title'])) {
-    $output .= '<legend>' . $element['#title'] . '</legend>';
+    $output .= '<legend><span class="fieldset-title">' . $element['#title'] . '</span></legend>';
   }
   $output .= '<div class="fieldset-content">' . "\n";
   if (!empty($element['#description'])) {
